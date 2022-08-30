@@ -3,13 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap"
-      rel="stylesheet"
-    />
-    <!-- displays site properly based on user's device -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link
       rel="icon"
       type="image/png"
@@ -20,25 +16,32 @@
     <title>Frontend Mentor | Profile card component</title>
   </head>
   <body>
-    <div class="wrapper">
-      <div class="pfp">
-        <img
-          src="images/image-victor.jpg"
-          class="pfp-img"
-          alt="profile picture of Victor Crest."
-        />
-      </div>
-      <div class="name-age">
-        <span class="name">Victor Crest</span>
-        <span class="age">26</span>
-      </div>
-      <div class="location">London</div>
-      <div class="stats">
-          <div class="followers">80K Followers</div>
-          <div class="likes">803K Likes</div>
-          <div class="photos">1.4K Photos</div>
-      </div>
-    </div>
+   <div class="container">
+     <div class="wrapper">
+       <img src="images/bg-pattern-card.svg" alt="">
+       <div class="content">
+         <img src="images/image-victor.jpg" alt="profile picture of Victor">
+         <h2>Victor Crest <span>26</span></h2>
+         <p>London</p>
+         <div class="footer">
+           <div>
+             <p class="followers">80k</p>
+             <p>followers</p>
+           </div>
+           <div>
+             <p class="likes">803k</p>
+             <p>Likes</p>
+           </div>
+           <div>
+             <p class="photos">
+               <p class="photos">1.4k</p>
+               <p>Photos</p>
+             </p>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div> 
     <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
